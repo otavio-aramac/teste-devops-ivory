@@ -20,7 +20,7 @@ jobs:
         run: |
           npm install -g sonarqube-scanner
           sonar-scanner \
-            -Dsonar.organization=otavio-aramac \
+            -Dsonar.organization=otavio-aramac-1 \
             -Dsonar.projectKey=otavio-aramac_teste-devops-ivory \
             -Dsonar.sources=. \
             -Dsonar.host.url=https://sonarcloud.io
