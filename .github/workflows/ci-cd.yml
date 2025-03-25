@@ -43,3 +43,4 @@ jobs:
 
       - name: Fazer deploy no S3
         run: aws s3 sync ./ s3://teste-devops-ivory --delete
+gith
